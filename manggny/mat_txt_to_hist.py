@@ -1,4 +1,4 @@
-def mat_txt_to_hist(filename):
+    def mat_txt_to_hist(filename):
     import os
     import matplotlib.pyplot as plt
     import numpy
@@ -68,4 +68,4 @@ def mat_txt_to_hist(filename):
     plt.show()
 
 
-mat_txt_to_hist("/home/manggny/Desktop/Group_study/TESTs/project_180324/lecture_readfile/root2_project.txt")
+mat_txt_to_hist("../project_180324/lecture_readfile/root2_project.txt")
